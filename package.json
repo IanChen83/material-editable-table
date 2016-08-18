@@ -1,6 +1,6 @@
 {
   "name": "material-editable-table",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A materialized, static table react component to display JSON data",
   "main": "build/index.min.js",
   "scripts": {
