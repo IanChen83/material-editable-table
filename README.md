@@ -1,2 +1,4 @@
 # material-editable-table
-An editable table react component to display JSON data
+A materialized, editable table react component to display JSON data
+
+Usage and other development details will be update later

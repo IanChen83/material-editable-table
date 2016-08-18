@@ -1,0 +1,27 @@
+{
+  "name": "material-editable-table",
+  "version": "0.0.1",
+  "description": "A static table react component to display JSON data",
+  "main": "build/index.min.js",
+  "keywords": [
+    "Material",
+    "UI",
+    "table",
+    "react"
+  ],
+  "author": "Patrick Chen",
+  "license": "MIT",
+  "dependencies": {
+    "material-ui": "^0.15.4",
+    "react": "^15.3.0",
+    "react-tap-event-plugin": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "react-dom": "^15.3.0",
+    "webpack": "^1.13.1"
+  }
+}
