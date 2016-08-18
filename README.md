@@ -50,7 +50,7 @@ This table component provides an ituitive way to view data and edit them.
     <body>
         <div id="Table">
         </div>
-        <script src="main.entry.js"></script>   <!-- This file is generated using wepack -->
+        <script src="main.entry.js"></script>   <!-- This file is generated using webpack -->
     </body>
 </html>
 ```
