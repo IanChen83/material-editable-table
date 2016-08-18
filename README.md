@@ -9,36 +9,32 @@ This table component provides an ituitive way to view data and edit them.
 
 ## Available Props
 * column
-	An array containing column definitions
+    An array containing column definitions
     ```javascript
-    	{
-        	tootlp      : "id",		// The value to be displayed when column header is hovered
-            readonly	: true,		// If set to true, this column won't be editable even if the editing props of the table is set
-            name		: "id"		// The value displayed on the column header
+        {
+            tooltip     : "id",     // The value to be displayed when column header is hovered
+            readonly    : true,     // If set to true, this column won't be editable even if the editing props of the table is set
+            name        : "id"      // The value displayed on the column header
         }
-	```
+    ```
 
 * items
-	An array containing data in json format
+    An array containing data in json format
     ```javascript
-    	{
-        	tootlp      : "id",		// The value to be displayed when column header is hovered
-            readonly	: true,		// If set to true, this column won't be editable if the editing props of the table is set
-            name		: "id"		// The value displayed on the column header
-        }
-	```
+        {id: 1, name: "The first line"}
+    ```
 
 * showToggle
-	A boolean value to decide if the editing toggle is shown. Note that this value doesn't affect `editing` or `editable`
+    A boolean value to decide if the editing toggle is shown. Note that this value doesn't affect `editing` or `editable`
 
 * editing
-	A boolean value to decide if the table can be edited initially
+    A boolean value to decide if the table can be edited initially
 
 * editable
-	Set this to `true` to enable editing feature
+    Set this to `true` to enable editing feature
 
 * [Other Props]
-	Other props not discussed above will be propegated to Table component from [material-ui#Table](www.material-ui.com/#/components/table). You can affect table appearance and behaviors there.
+    Other props not discussed above will be propegated to Table component from [material-ui#Table](www.material-ui.com/#/components/table). You can affect table appearance and behaviors there.
 
 ## Simple Demostration
 
@@ -54,7 +50,7 @@ This table component provides an ituitive way to view data and edit them.
     <body>
         <div id="Table">
         </div>
-        <script src="main.entry.js"></script>	<!-- This file is generated using wepack -->
+        <script src="main.entry.js"></script>   <!-- This file is generated using wepack -->
     </body>
 </html>
 ```
